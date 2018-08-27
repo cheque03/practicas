@@ -1,2 +1,2 @@
 # practicas
-Para subir los desarrollos de practica
+Para subir los desarrollos
