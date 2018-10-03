@@ -4,12 +4,13 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<style type="text/css">
+	<style type="text/css">
         .hidden{
             visibility: hidden;
         }
     </style>
 <script>
+
 $(document).ready(function(){
     $(".btn1").click(function(){
         $("p").hide();
@@ -62,3 +63,4 @@ $(document).ready(function(){
 </script>
 </body>
 </html>
+id, institucion, nombre1, cargo1, telefono, email1, nombre2, cargo2, email2, nombre3, cargo3, email3, recursos
