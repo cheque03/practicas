@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clases en javascript</title>
+</head>
+<body>
+
+<script type="text/javascript">
+      class Poligono {
+      constructor(height, width){
+        this.height = height;
+        this.width = width;
+      }
+      
+      //Getter
+      get area () {
+        return this.calcArea();
+      }
+      
+      //Metodo
+      calcArea(){
+        return this.height * this.width;
+      }
+      
+      get perimetro(){
+        return this.calcPermimetro();
+      }
+      
+      calcPermimetro () {
+        return this.height + this.width + this.height + this.width;
+      }
+}
+
+//creamos  un objeto
+const cuadrado = new Poligono(10,10);
+
+document.write("Area " + cuadrado.area + "<br>");
+document.write("Perimetro " + cuadrado.perimetro);
+    
+</script>
+
+</body>
+</html>
