@@ -63,4 +63,3 @@ $(document).ready(function(){
 </script>
 </body>
 </html>
-id, institucion, nombre1, cargo1, telefono, email1, nombre2, cargo2, email2, nombre3, cargo3, email3, recursos
