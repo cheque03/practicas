@@ -6,7 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700" rel="stylesheet" />
 </head>
 <body class="text-gray-800 h-screen bg-gray-400" style="font-family: 'Source Sans Pro', Sans-serif">
-	<!--<div class="container mx-auto h-full flex justify-center items-center">
+	<div class="container mx-auto h-full flex justify-center items-center">
 		<form class="w-full max-w-sm">
 		  <div class="md:flex md:items-center mb-6">
 		    <div class="md:w-1/3">
@@ -46,11 +46,6 @@
 		    </div>
 		  </div>
 		</form>
-	</div> -->
-	
-	<div class="container mx-auto h-full flex justify-center items-center">
-		<h2>dddd</h2>
 	</div>
-	
 </body>
 </html>
